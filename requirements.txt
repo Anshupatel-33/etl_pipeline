@@ -1,0 +1,12 @@
+pandas>=1.5.0
+sqlalchemy>=2.0.0
+requests>=2.28.0
+python-dotenv>=0.21.0
+loguru>=0.6.0
+pytest>=7.0.0
+
+# PostgreSQL driver
+# If psycopg2-binary gives a DLL error on Windows, run:
+#   pip uninstall psycopg2-binary -y
+#   pip install "psycopg[binary]"
+psycopg2-binary>=2.9.0

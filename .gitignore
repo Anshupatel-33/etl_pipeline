@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables — NEVER commit secrets
+.env
+
+# Logs
+logs/
+*.log
+
+# Data files — raw data often too large for git
+data/raw/*.csv
+data/processed/
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+~/airflow/
+
+# dbt
+dbt_modules/
+target/
+dbt_packages/
+.dbt/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
